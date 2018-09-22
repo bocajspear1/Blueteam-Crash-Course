@@ -1,3 +1,7 @@
+---
+layout: post
+title: Chapter 1 - Getting Started
+---
 # Installing VirtualBox. 
 
 The wizard is pretty straight forward, just take the defaults and be sure to accept the installation of the drivers.
