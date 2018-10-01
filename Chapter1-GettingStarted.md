@@ -18,7 +18,7 @@ The wizard is pretty straight forward, just take the defaults and be sure to acc
 
 # Getting an ISO
 
-The ISO file is used as a virtual CD disk with ou virtual machine. We'll be using **Ubuntu 18.04**, which you can get here: http://releases.ubuntu.com/18.04/ubuntu-18.04.1-live-server-amd64.iso
+The ISO file is used as a virtual CD disk with ou virtual machine. We'll be using **Ubuntu 18.04**, which you can get here: [http://releases.ubuntu.com/18.04/ubuntu-18.04.1-live-server-amd64.iso](http://releases.ubuntu.com/18.04/ubuntu-18.04.1-live-server-amd64.iso)
 
 # Create a virtual machine
 
