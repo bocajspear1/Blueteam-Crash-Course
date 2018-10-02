@@ -101,4 +101,8 @@ This will show a list of snapshots in a tree format. (This is because you can ta
 
 ![Blank VirtualBox](images/snapshot3.png)
 
+|         |  Navigation  |   |
+| :-------------: |:-------------:| -----:|
+|   | [Home](index) | [Ch 2 >](Chapter2-LinuxBasics)  |
+
 {% include footer.html %}
