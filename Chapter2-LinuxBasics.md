@@ -81,7 +81,7 @@ All users are in one or more groups. These group users together to be given perm
 
 |         |  Navigation  |   |
 | :-------------: |:-------------:| -----:|
-| [< Ch 1](Chapter1-GettingStarted) | [Home](index) | Ch 3 >  |
+| [< Ch 1](Chapter1-GettingStarted) | [Home](index) | [Ch 3 >](Chapter3-NetworkingBasics)  |
 
 
 
