@@ -78,6 +78,8 @@ TCP ensures two sides are talking and the data arrives intact and in the right o
 
 ![TCP Connection](https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tcp_normal_2.png/1024px-Tcp_normal_2.png)
 
+(By N-21 - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=7972116)
+
 TCP has flags to indicate the state of the connection. A sender sends a packet with a SYN flag, and gets a packet with the flags SYN and ACK (acknowledgment) set. A packet with ACK is sent in response to complete the handshark. TCP uses sequence numbers to keep things in order, with packets sent with ACK flag set to acknowledge data up to a certain point has been received. When its done, TCP uses another handshake (the last four lines in Wireshark) with FIN (finished) and ACK flags to tell each side they are done.
 
 ### UDP
