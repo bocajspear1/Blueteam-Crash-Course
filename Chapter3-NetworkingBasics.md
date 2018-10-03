@@ -34,7 +34,7 @@ The top is a list of packets. Click one to view details about it. The details an
 
 ## Physical Layer
 
-This is the stuff we actually send on. This is usually a cable or wireless signals that carry the data from point A to point B.
+This is the stuff we actually send on. This is usually a cable or wireless signals that carry the data from point A to point B. In virtualization, this is virtual as well.
 
 ## Data Link Layer
 
