@@ -12,6 +12,15 @@ Networking is critical in the modern world, as we use it all the time to connect
 
 This chapter is for giving a quick run down of networking and what is involved in moving data around. There's a lot, **lot** more than I'll go through here, but I'll try to give you what you'll need to do the absolute basics in the blue teaming.
 
+# What You'll Learn
+
+* The OSI Model 
+* The different layers of network communications 
+* IP Addresses 
+* TCP and UDP 
+* Network Ports 
+
+
 # The OSI Model
 
 ![OSI Model Diagram](https://upload.wikimedia.org/wikipedia/commons/5/5b/OSI_Model_-_en.png)
@@ -100,7 +109,7 @@ There's a lot more to networking than this. Hopefully, this will get you started
 
 |         |  Navigation  |   |
 | :-------------: |:-------------:| -----:|
-| [< Ch 2](Chapter2-GettingStarted) | [Home](index) | Ch 4 >  |
+| [< Ch 2](Chapter2-GettingStarted) | [Home](index) | [Ch 4 >](Chapter4-MoreNetworking)  |
 
 
 
