@@ -44,7 +44,7 @@ sudo <COMMAND>
 ```
 Then type **your** password. `sudo` is nice as it allows you to run `sudo` again without re-entering the password for a period of time. If you want, you could type:
 ```
-sudo su- 
+sudo su - 
 ```
 to switch to root, since you're essentially switching to root from root!
 
