@@ -103,6 +103,6 @@ This will show a list of snapshots in a tree format. (This is because you can ta
 
 |         |  Navigation  |   |
 | :-------------: |:-------------:| -----:|
-|   | [Home](index) | [Ch 2 >](Chapter2-LinuxBasics)  |
+| [< Ch 0](Chapter1-WhatsBlueTeaming)  | [Home](index) | [Ch 2 >](Chapter2-LinuxBasics)  |
 
 {% include footer.html %}
