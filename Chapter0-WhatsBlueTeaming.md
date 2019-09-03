@@ -51,6 +51,6 @@ My name is Jacob Hartman. I've been in the professional cybersecurity field for 
 
 |         |  Navigation  |   |
 | :-------------: |:-------------:| -----:|
-|   | [Home](index) | [Ch 1 >](Chapter1-GetStarted)  |
+|   | [Home](index) | [Ch 1 >](Chapter1-GettingStarted)  |
 
 {% include footer.html %}
