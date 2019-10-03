@@ -56,7 +56,7 @@ User info is stored in `/etc/passwd`. Password info for users is stored in `/etc
 
 `/etc/passwd` is readable by everybody. (The format can be viewed [here](https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/)). The main thing we care about is that it gives the username and uid. 
 
-`etc/shadow` is readable only by root. (The format can be viewed [here](https://www.cyberciti.biz/faq/understanding-etcshadow-file/)). This gives contains out passwords, though put a process called "hashing," which is essentially a one-way encryption. Passwords you type into prompts are hashed with the same the hash process and compared. This allows checking if a password is same without storing the password in the open (in plain-text).
+`/etc/shadow` is readable only by root. (The format can be viewed [here](https://www.cyberciti.biz/faq/understanding-etcshadow-file/)). This gives contains out passwords, though put a process called "hashing," which is essentially a one-way encryption. Passwords you type into prompts are hashed with the same the hash process and compared. This allows checking if a password is same without storing the password in the open (in plain-text).
 
 ### Groups
 

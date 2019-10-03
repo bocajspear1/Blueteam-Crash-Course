@@ -15,7 +15,9 @@ Since networking is so critical to managing your environment, here's another cha
 # What You'll Learn
 
 * Routing Basics 
-* NAT and port forwarding 
+* NAT 
+* ARP
+* Setting Addresses
 
 # Routers and Routes
 
@@ -76,8 +78,6 @@ Network Destination        Netmask          Gateway       Interface  Metric
 ===========================================================================
 ```
 
-
-
 ## Routing Process
 
 When a system wants to send something, it'll go through a process like this:
@@ -95,3 +95,39 @@ Essentially, this process happens until the data reaches its destination. Then t
 
 Network Address Translation (NAT) is a widely used process on converting addresses from private IP addresses, which can't be routed on the internet, to public IP addresses, which can be routed on the internet. (If you've used a home router, you've used NAT before.) This is why your IP address that appears in sites like https://www.whatismyip.com/ might be different than the address you get when running `ipconfig` or `ifconfig`.
 
+# ARP
+
+ARP is a protocol that is used on a local network to find MAC addresses for a given IP address. A system will use ARP request to ask which system has a given IP and what their MAC address, so the system can send stuff on layer 2(Data Link Layer). The system that has that IP will response with an ARP response.
+
+> ![BlueTeam!](images/redteam.png) This protocol has no verification mechanism, so any system can pretend to be another system by responding to the ARP request. Using tools such as Ettercap, the red team can intercept local network traffic (only on a local network) by pretending to be the destination system. Lookup "ARP man-in-the-middle-attacks" and Ettercap for more info.
+
+# Giving a machine a IP Address
+
+To communicate, we need to give our systems IP addresses. This can be done in two ways.
+
+## DHCP
+
+DHCP is a network protocol that allocates and communicates IP addresses to systems. A device will send out a message indicating they want an address, and the DHCP server will respond, assigning them an IP address, which is the device's responsibility to assign to itself, and providing the default gateway, network DNS servers and other network information. DHCP records these address allocations and makes sure nobody gets a duplicate IP address.
+
+DHCP is usually used by desktop and workstations. Servers, like the ones you will be defending, will not use DHCP, and you must assign them their address.
+
+## Static IPs
+
+Static IPs are when you manually give a system an IP address. ![BlueTeam!](images/blueteam.png) This means you have to track your addresses yourself. 
+
+> ![BlueTeam!](images/blueteam.png) A system will NOT usually check if they have been given an static IP address that is already been given out. If you are getting intermittent connection problems, you may have allocated the same IP address on two systems. To test this, you can use the `arping` tool to see if two systems respond to your ARP message. See [here](http://linux-ip.net/html/tools-arping.html) and [here](https://linux.die.net/man/8/arping) for more info.
+
+
+Here are some guides on how to set static IPs on a few Linux types:
+
+* [CentOS 7](https://www.itzgeek.com/how-tos/linux/centos-how-tos/how-to-configure-static-ip-address-in-centos-7-rhel-7-fedora-26.html)
+* [Ubuntu <=16.04](https://www.howtoforge.com/tutorial/howto-set-a-static-ip-on-ubuntu/) (Note you can also put `dns-nameservers <DNS_IP>` after the `gateway` line in `/etc/network/interfaces` to set the DNS server.)
+* [Ubuntu 17.04+](https://www.tecmint.com/configure-network-static-ip-address-in-ubuntu/)
+
+|         |  Navigation  |   |
+| :-------------: |:-------------:| -----:|
+| [< Ch 3](Chapter3-NetworkingBasics) | [Home](index) | [Ch 5 >](Chapter5-BeingAnAdmin)  |
+
+
+
+{% include footer.html %}

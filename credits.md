@@ -1,1 +1,2 @@
 * Red Team Hat: GPL, https://commons.wikimedia.org/w/index.php?curid=451026
+* Spartan Warrior: SAWg3rd [CC0], <a href="https://commons.wikimedia.org/wiki/File:Spartan_Warrior_Agoge.jpg">via Wikimedia Commons</a>
