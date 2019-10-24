@@ -7,7 +7,7 @@ title: Chapter 6 - DNS
 
 * You read the last chapter
 * You have a basic understanding of managing services.
-* You can use a editor such as `vi` to edit file on a server.
+* You can use a editor such as `vi` to edit files on a server.
 
 # DNS
 
