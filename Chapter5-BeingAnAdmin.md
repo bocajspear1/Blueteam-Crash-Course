@@ -139,4 +139,4 @@ systemctl status <SERVICE_NAME>
 
 |         |  Navigation  |   |
 | :-------------: |:-------------:| -----:|
-| [< Ch 4](Chapter4-MoreNetworking) | [Home](index) |   |
+| [< Ch 4](Chapter4-MoreNetworking) | [Home](index) |  [Ch 6 >](Chapter6-DNS) |
