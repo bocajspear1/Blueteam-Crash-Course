@@ -28,7 +28,7 @@ Blue team competitions give you a taste of a few different cybersecurity jobs, h
 
 # So What Should I Do?
 
-I wrote an article that helps with this: https://j2h2.com/entry/i-m-blue-tips-for-collegiate-blue-teams
+I wrote an article that helps with this: https://j2h2.com/posts/i-m-blue-tips-for-collegiate-blue-teams/
 
 # What Should I Keep in Mind?
 
